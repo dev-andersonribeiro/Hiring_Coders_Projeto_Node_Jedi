@@ -1,0 +1,119 @@
+.section {
+    height: 100vh;
+    width: 100%;
+        
+}
+
+.background--one{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .block-section--one{
+        max-width: min(1280px, 90%);
+        display: block;
+        text-align: center;
+        
+        & h1 {
+            margin-bottom: 2.9rem;
+            font-weight: 500;
+            font-size: 2.2rem;
+        }
+
+        & img {
+            cursor: pointer;
+            width: 300px;
+            height: auto;
+
+            transition: ease-in-out .3s;
+        &:hover {
+            transform: scale(1.1);
+        }
+        }
+
+        
+    }
+    
+
+}
+
+.background--two{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    height: 100%;
+
+    .container {
+        width: 100%;
+    }
+
+
+
+    .block-section--two{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: min(1280px, 90%);
+        padding: 9rem 0 9rem 0 ;
+
+        & img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        & p {
+            text-align: right;
+            margin-left: 7rem;
+            height: 100%;
+        }   
+    
+    }
+
+    .footer-contain {         
+       
+        width: 100%;
+        padding-bottom: 60px;
+
+        .footer-left--text{
+            width: 45%;
+        }
+
+        .footer-main{
+            max-width: min(1280px, 90%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+
+        .back-to--top{
+                position: relative;
+                display: flex;
+                align-items: center;                
+
+                & img{
+                    cursor: pointer;
+                    width: 200px;
+                    height: auto;
+
+                    transition: ease-in-out .3s;
+
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+            }
+
+            
+        } 
+
+        
+        
+      }
+
+    
+}
